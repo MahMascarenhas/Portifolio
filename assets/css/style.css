@@ -37,7 +37,8 @@ body::before {
 @media (min-width: 1024px) {
   body::before {
     background: #040404 url("../../recursos/img/bg.jpg") top left no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
+    background-size: cover;
   }
 }
 
